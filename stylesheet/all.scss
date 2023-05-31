@@ -1,0 +1,44 @@
+// Configuration
+@import "../node_modules/bootstrap-5.1.1/scss/functions";
+@import "../stylesheet/helper/variables";
+@import "../node_modules/bootstrap-5.1.1/scss/mixins";
+@import "../stylesheet/helper/utilities";
+
+// Layout & components
+@import "../node_modules/bootstrap-5.1.1/scss/root";
+@import "../node_modules/bootstrap-5.1.1/scss/reboot";
+@import "../node_modules/bootstrap-5.1.1/scss/type";
+@import "../node_modules/bootstrap-5.1.1/scss/images";
+@import "../node_modules/bootstrap-5.1.1/scss/containers";
+@import "../node_modules/bootstrap-5.1.1/scss/grid";
+@import "../node_modules/bootstrap-5.1.1/scss/tables";
+@import "../node_modules/bootstrap-5.1.1/scss/forms";
+@import "../node_modules/bootstrap-5.1.1/scss/buttons";
+@import "../node_modules/bootstrap-5.1.1/scss/transitions";
+@import "../node_modules/bootstrap-5.1.1/scss/dropdown";
+@import "../node_modules/bootstrap-5.1.1/scss/button-group";
+@import "../node_modules/bootstrap-5.1.1/scss/nav";
+@import "../node_modules/bootstrap-5.1.1/scss/navbar";
+@import "../node_modules/bootstrap-5.1.1/scss/card";
+@import "../node_modules/bootstrap-5.1.1/scss/accordion";
+@import "../node_modules/bootstrap-5.1.1/scss/breadcrumb";
+@import "../node_modules/bootstrap-5.1.1/scss/pagination";
+@import "../node_modules/bootstrap-5.1.1/scss/badge";
+@import "../node_modules/bootstrap-5.1.1/scss/alert";
+@import "../node_modules/bootstrap-5.1.1/scss/progress";
+@import "../node_modules/bootstrap-5.1.1/scss/list-group";
+@import "../node_modules/bootstrap-5.1.1/scss/close";
+@import "../node_modules/bootstrap-5.1.1/scss/toasts";
+@import "../node_modules/bootstrap-5.1.1/scss/modal";
+@import "../node_modules/bootstrap-5.1.1/scss/tooltip";
+@import "../node_modules/bootstrap-5.1.1/scss/popover";
+@import "../node_modules/bootstrap-5.1.1/scss/carousel";
+@import "../node_modules/bootstrap-5.1.1/scss/spinners";
+@import "../node_modules/bootstrap-5.1.1/scss/offcanvas";
+@import "../node_modules/bootstrap-5.1.1/scss/placeholders";
+
+// Helpers
+@import "../node_modules/bootstrap-5.1.1/scss/helpers";
+
+// Utilities
+@import "../node_modules/bootstrap-5.1.1/scss/utilities/api";
