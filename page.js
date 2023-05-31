@@ -213,8 +213,7 @@ function getTodo() {
                 incompleted.forEach(function (item) {
                     let incompletedStr = `<li class="list-group-item list-group-item-action py-2 d-flex list-item addItem">
                     <input class="form-check-input me-2" type="checkbox" data-id="${item.id}">
-                    ${item.content}<span class="ms-auto">2023/05/25</span><i
-                        class="bi bi-trash fs-4 ms-2 deleteIcon" style="cursor:pointer;" data-id="${item.id}"></i>
+                    ${item.content}<i class="bi bi-trash fs-4 ms-2 deleteIcon" style="cursor:pointer;" data-id="${item.id}"></i>
                 </li>`;
                     str += incompletedStr;
                     strAll += incompletedStr;
@@ -225,8 +224,7 @@ function getTodo() {
             completed.forEach(function (item) {
                 let completedStr = `<li class="list-group-item list-group-item-action py-2 d-flex list-item addItem">
                 <input class="form-check-input me-2" type="checkbox" data-id="${item.id}" checked>
-                ${item.content}<span class="ms-auto">2023/05/25</span><i
-                    class="bi bi-trash fs-4 ms-2 deleteIcon" style="cursor:pointer;" data-id="${item.id}"></i>
+                ${item.content}<i class="bi bi-trash fs-4 ms-2 deleteIcon" style="cursor:pointer;" data-id="${item.id}"></i>
             </li>`;
                 str2 += completedStr;
                 strAll += completedStr;
