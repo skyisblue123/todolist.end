@@ -206,7 +206,7 @@ function getTodo() {
             })
             let strAll = '';
             if (incompleted == '') {
-                incompletePart.innerHTML = `<li class="list-group-item list-group-item-secondary w-100 w-lg-50 mx-auto text-center text-secondary fs-4 mt-5 opacity-50 shadow-mine" style="padding:180px 0;">
+                incompletePart.innerHTML = `<li class="list-group-item list-group-item-secondary w-100 w-lg-50 mx-auto text-center text-secondary fs-4 mt-5 opacity-50 shadow-mine" style="padding:150px 0;">
                 Nothing added yet </li>`;
             } else {
                 let str = '';
